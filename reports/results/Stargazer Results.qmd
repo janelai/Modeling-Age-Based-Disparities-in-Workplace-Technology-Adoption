@@ -1,0 +1,27 @@
+---
+title: "Stargazer Results"
+format: html
+---
+
+
+
+
+```{r stargazer comparison, message=FALSE, warning=FALSE}
+library(stargazer)
+
+ds <- read.csv("~/lab-2-team-no-l-s/data/interim/GSS_confirmation_set.csv")
+ds$industry <- as.factor(ds$industry)
+ds$job_ctg <- as.factor(ds$job_ctg)
+
+model1 <- lm(usetech ~ age + hrs1 + industry, data = ds)
+model2 <- lm(usetech ~ age + hrs1 + industry + job_ctg, data = ds)
+
+stargazer(model1, model2,
+          type = "text",      # Use "html" or "latex" for formatted output
+          title = "Comparison of Regression Models",
+          column.labels = c("Without Job Category", "With Job Category"),
+          dep.var.labels = "Technology Use (usetech)",
+          align = TRUE,
+          no.space = TRUE)
+```
+

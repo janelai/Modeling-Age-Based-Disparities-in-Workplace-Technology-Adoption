@@ -1,0 +1,356 @@
+---
+title: "exploratory_modelling"
+output:
+  pdf_document: default
+  html_document: default
+---
+
+```{r libraries}
+library("dplyr")
+library("ggplot2")
+library("patchwork")
+```
+
+```{r read datasets}
+ds_exp <- read.csv("~/lab-2-team-no-l-s/data/interim/GSS_exploration_set.csv")
+```
+
+```{r transform dataset}
+ds_exp$industry <- as.factor(ds_exp$industry)
+ds_exp$job_ctg <- as.factor(ds_exp$job_ctg)
+```
+
+```{r Studying distribution of data}
+
+## Usetech Distribution
+
+usetech_by_job_plot <- ds_exp %>%
+                        ggplot()+
+                        aes(x=job_ctg, y=usetech)+
+                        geom_jitter(width=0.2, height=0.2, color="blue", alpha=0.5)+
+                        geom_boxplot(outlier.shape = NA, alpha=0.5)+
+                        labs(x="Job Category", y="% time using electronics at work", title = "Usetech by Job Category")+
+                        theme_minimal()
+
+
+usetech_facet_by_age <- ds_exp %>%
+                          mutate(age_group = cut(age, breaks = c(10, 20, 30, 40, 50, 60, 70, 80))) %>%
+                          ggplot(aes(x = job_ctg, y = usetech)) +
+                          geom_jitter(width = 0.2, height = 0.2, alpha = 0.5, color = "blue") +
+                          geom_boxplot(outlier.shape = NA, alpha = 0.3) +
+                          facet_wrap(~ age_group) +
+                          labs(x = "Job Category", y = "% Time Using Electronics at Work",
+                               title = "Use of Technology by Job Category and Age Group") +
+                          theme_minimal()
+
+usetech_histogram <- ds_exp %>%
+                        ggplot() +
+                        aes(x = usetech) +
+                        geom_histogram(binwidth = 10, fill="skyblue", color="black") +
+                        geom_density(aes(y = after_stat(count) * 10), color = "darkred", size = 1) +
+                        scale_x_continuous(breaks = seq(0, 100, by = 10)) +
+                        labs(x = "% Time Using Electronics at Work", y = "Count", title = "Distribution of Technology Usage at Work") +
+                        theme_classic()
+
+usetech_by_job_plot
+
+usetech_facet_by_age
+
+usetech_histogram
+
+## Save the plots.
+ggsave("~/lab-2-team-no-l-s/notebooks/plots/usetech_by_job_plot.png", plot = usetech_by_job_plot, width = 8, height = 6, dpi = 300)
+ggsave("~/lab-2-team-no-l-s/notebooks/plots/usetech_facet_by_age.png", plot = usetech_facet_by_age, width = 8, height = 6, dpi = 300)
+ggsave("~/lab-2-team-no-l-s/notebooks/plots/usetech_histogram.png", plot = usetech_histogram, width = 8, height = 6, dpi = 300)
+
+## Age Distribution
+
+```
+
+```{r Age Vs Usetech plots}
+age_vs_usetech_scatter <- ds_exp %>%
+                            ggplot()+
+                            aes(x=age, y=usetech)+
+                            geom_point(color="blue", alpha=0.5)+
+                            labs(x="Age", y="% time using electronics at work", title = "Age Vs Usetech (All)")+
+                            theme_minimal()
+
+age_vs_usetech_bluecollar_scatter <- ds_exp %>%
+                                        filter(job_ctg=="Blue Collar") %>%
+                                        ggplot()+
+                                        aes(x=age, y=usetech)+
+                                        geom_point(color="blue", alpha=0.5)+
+                                        labs(x="Age", y="% time using electronics at work", title = "Age Vs Usetech (Blue Collar)")+
+                                        theme_minimal()
+
+age_vs_usetech_whitecollar_scatter <- ds_exp %>%
+                                        filter(job_ctg=="White Collar") %>%
+                                        ggplot()+
+                                        aes(x=age, y=usetech)+
+                                        geom_point(color="blue", alpha=0.5)+
+                                        labs(x="Age", y="% time using electronics at work", title = "Age Vs Usetech (White Collar)")+
+                                        theme_minimal()
+
+age_vs_usetech_service_scatter <- ds_exp %>%
+                                    filter(job_ctg=="Service") %>%
+                                    ggplot()+
+                                    aes(x=age, y=usetech)+
+                                    geom_point(color="blue", alpha=0.5)+
+                                    labs(x="Age", y="% time using electronics at work", title = "Age Vs Usetech (Service)")+
+                                    theme_minimal()
+
+age_vs_usetech_scatter
+
+age_vs_usetech_bluecollar_scatter
+
+age_vs_usetech_whitecollar_scatter
+
+age_vs_usetech_service_scatter
+
+## Save the plots.
+ggsave("~/lab-2-team-no-l-s/notebooks/plots/age_vs_usetech_scatter.png", plot = age_vs_usetech_scatter, width = 8, height = 6, dpi = 300)
+ggsave("~/lab-2-team-no-l-s/notebooks/plots/age_vs_usetech_bluecollar_scatter.png", plot = age_vs_usetech_bluecollar_scatter, width = 8, height = 6, dpi = 300)
+ggsave("~/lab-2-team-no-l-s/notebooks/plots/age_vs_usetech_whitecollar_scatter.png", plot = age_vs_usetech_whitecollar_scatter, width = 8, height = 6, dpi = 300)
+ggsave("~/lab-2-team-no-l-s/notebooks/plots/age_vs_usetech_service_scatter.png", plot = age_vs_usetech_service_scatter, width = 8, height = 6, dpi = 300)
+
+```
+
+Observation: Shows that there's no proper relationship between percentage of time spent on electronics at work Vs Age.
+
+
+```{r Hrs1 Vs Usetech plots}
+hrs1_vs_usetech_scatter <- ds_exp %>%
+                            ggplot()+
+                            aes(x=hrs1, y=usetech)+
+                            geom_point(color="blue", alpha=0.5)+
+                            labs(x="Weekly working hours", y="% time using electronics at work", title = "Hrs1 Vs Usetech (All)")+
+                            theme_minimal()
+
+hrs1_vs_usetech_bluecollar_scatter <- ds_exp %>%
+                                        filter(job_ctg=="Blue Collar") %>%
+                                        ggplot()+
+                                        aes(x=hrs1, y=usetech)+
+                                        geom_point(color="blue", alpha=0.5)+
+                                        labs(x="Weekly working hours", y="% time using electronics at work", title = "Hrs1 Vs Usetech (Blue Collar)")+
+                                        theme_minimal()
+
+hrs1_vs_usetech_whitecollar_scatter <- ds_exp %>%
+                                        filter(job_ctg=="White Collar") %>%
+                                        ggplot()+
+                                        aes(x=hrs1, y=usetech)+
+                                        geom_point(color="blue", alpha=0.5)+
+                                        labs(x="Weekly working hours", y="% time using electronics at work", title = "Hrs1 Vs Usetech (White Collar)")+
+                                        theme_minimal()
+
+hrs1_vs_usetech_service_scatter <- ds_exp %>%
+                                    filter(job_ctg=="Service") %>%
+                                    ggplot()+
+                                    aes(x=hrs1, y=usetech)+
+                                    geom_point(color="blue", alpha=0.5)+
+                                    labs(x="Weekly working hours", y="% time using electronics at work", title = "Hrs1 Vs Usetech (Service)")+
+                                    theme_minimal()
+
+hrs1_vs_usetech_scatter
+
+hrs1_vs_usetech_bluecollar_scatter
+
+hrs1_vs_usetech_whitecollar_scatter
+
+hrs1_vs_usetech_service_scatter
+
+## Save the plots.
+ggsave("~/lab-2-team-no-l-s/notebooks/plots/hrs1_vs_usetech_scatter.png", plot = hrs1_vs_usetech_scatter, width = 8, height = 6, dpi = 300)
+ggsave("~/lab-2-team-no-l-s/notebooks/plots/hrs1_vs_usetech_bluecollar_scatter.png", plot = hrs1_vs_usetech_bluecollar_scatter, width = 8, height = 6, dpi = 300)
+ggsave("~/lab-2-team-no-l-s/notebooks/plots/hrs1_vs_usetech_whitecollar_scatter.png", plot = hrs1_vs_usetech_whitecollar_scatter, width = 8, height = 6, dpi = 300)
+ggsave("~/lab-2-team-no-l-s/notebooks/plots/hrs1_vs_usetech_service_scatter.png", plot = hrs1_vs_usetech_service_scatter, width = 8, height = 6, dpi = 300)
+
+```
+
+Observation: Shows that there's no proper relationship between percentage of time spent on electronics at work Vs hours of time worked per week. 
+
+
+```{r linear modelling}
+model_baseline <- lm(usetech ~ 1, data = ds_exp)
+summary(model_baseline)
+```
+
+Observation:
+
+The average value of usetech across all observations in the sample data is approximately 60.41.
+
+Std. Error = 1.816: The standard error of the mean estimate.
+
+t value = 33.26, p-value < 2e-16: This tells us that the mean value is highly statistically significant.
+
+```{r linear modelling 2}
+model_full <- lm(usetech ~ age + hrs1 + industry + job_ctg, data = ds_exp)
+summary(model_full)
+```
+
+Observation:
+
+
+```{r linear modelling 3}
+anova(model_baseline, model_full)
+```
+
+```{r model testing}
+model_1 <- lm(usetech ~ age, data = ds_exp)
+model_2 <- lm(usetech ~ age + hrs1, data = ds_exp)
+model_3 <- lm(usetech ~ age + hrs1 + industry, data = ds_exp)
+anova(model_baseline, model_1, model_2, model_3, model_full)
+```
+
+- Model 1 vs. Model 2 (Adding age)
+The RSS decreases marginally from 564,112 to 564,082 (Change in RSS = 30), with an F-value of 0.0238 and p-value of 0.877.
+
+Interpretation: Age does not significantly explain variation in usetech. This suggests that tech use is relatively stable across age groups in this sample.
+
+- Model 2 vs. Model 3 (Adding hrs1)
+The RSS drops to 561,827 (Change in RSS = 2,255), with an F-value of 1.7963 and p-value of 0.1809.
+
+Interpretation: While the model fit improves slightly, the effect of hours worked is not statistically significant. More work hours do not strongly predict higher tech use.
+
+- Model 3 vs. Model 4 (Adding industry)
+The RSS further decreases to 538,217 (Change in RSS = 23,610), with an F-value of 2.0896 and a statistically significant p-value of 0.0294.
+
+Interpretation: Industry explains a meaningful amount of variance in tech use. This indicates that technology use is influenced by sector-level practices and work environments.
+
+- Model 4 vs. Model 5 (Adding job_ctg)
+The final RSS drops to 502,176 (Change in RSS = 36,041), with an F-value of 14.3539 and a highly significant p-value of 9.54e-07.
+
+Interpretation: Job category significantly enhances the model. Even within the same industry, the nature of a person’s role determines their likelihood of using technology at work.
+
+=> This stepwise model comparison highlights that:
+
+Demographic and individual-level predictors (like age and hrs1) do not significantly explain technology use.
+
+Workplace context — including industry and job type — plays a more substantial role.
+
+These results underscore the importance of organizational structures and job roles in shaping how individuals engage with technology in professional settings.
+
+<<<<<<< Updated upstream
+
+
+
+
+And now, to show transformations with polynomials, and what a graph looks like when expanding age into multidegree polynomials.
+
+```{r}
+ggplot(ds_exp, aes(x = age, y = usetech)) +
+  geom_point(alpha = 0.6) +
+
+  stat_smooth(
+    mapping = aes(color = "Degree 2"),
+    method = "lm",
+    formula = y ~ poly(x, 2),
+    se = FALSE
+  ) +
+
+  stat_smooth(
+    mapping = aes(color = "Degree 3"),
+    method = "lm",
+    formula = y ~ poly(x, 3),
+    linetype = "dotdash",
+    se = FALSE
+  ) +
+
+  stat_smooth(
+    mapping = aes(color = "Degree 4"),
+    method = "lm",
+    formula = y ~ poly(x, 4),
+    linetype = "twodash",
+    se = FALSE
+  ) +
+
+  stat_smooth(
+    mapping = aes(color = "Linear"),
+    method = "lm",
+    formula = y ~ x,
+    linetype = "dashed",
+    se = FALSE
+  ) +
+
+  scale_color_manual(
+    name = "Model Type",
+    values = c(
+      "Linear" = "red",
+      "Degree 2" = "blue",
+      "Degree 3" = "green",
+      "Degree 4" = "purple"
+    )
+  ) +
+
+  labs(
+    title = "Comparing Linear and Polynomial Fits for Age",
+    x = "Age",
+    y = "Tech Use Score",
+    color = "Model Type" # This ensures the legend title is correct
+  ) +
+  theme_minimal() +
+  theme(legend.text = element_text(color = names(scale_color_manual()$palette)))
+
+```
+=======
+```{r Fitted values Vs Residuals plots}
+plot_data <- data.frame(
+  Fitted = fitted(model_full),
+  Residuals = resid(model_full)
+)
+
+# Make the plot
+ggplot(plot_data, aes(x = Fitted, y = Residuals)) +
+  geom_point(alpha = 0.6) +
+  geom_smooth(method = "loess", se = TRUE, color = "blue", linewidth = 1) +
+  geom_hline(yintercept = 0, color = "red", linetype = "dashed") +
+  labs(title = "Residuals vs Fitted Values",
+       x = "Fitted Values",
+       y = "Residuals") +
+  theme_minimal()
+```
+
+
+Below is using stargazer to show the comparison between the results of lm(usetech ~ age + hrs1 + industry) and lm(usetech ~ age + hrs1 + industry + job_ctg).
+
+```{r}
+library(stargazer)
+
+model1 <- lm(usetech ~ age + hrs1 + industry, data = ds_exp)
+model2 <- lm(usetech ~ age + hrs1 + industry + job_ctg, data = ds_exp)
+
+stargazer(model1, model2,
+          type = "text",      # Use "html" or "latex" for formatted output
+          title = "Comparison of Regression Models",
+          column.labels = c("Without Job Category", "With Job Category"),
+          dep.var.labels = "Technology Use (usetech)",
+          align = TRUE,
+          no.space = TRUE)
+```
+
+```{r industry_barplot, fig-height=7, fig-width=10, echo=FALSE, message=FALSE, warning=FALSE}
+
+library(ggplot2)
+library(readr)
+library(tidyverse)
+
+df <- read_csv("../data/interim/GSS_confirmation_set.csv", show_col_types = FALSE)
+
+df <- df %>% 
+  filter(!is.na(industry), !is.na(job_ctg)) %>%
+  mutate(industry_short = str_sub(industry, 1, 20)) 
+
+ggplot(df, aes(x = industry_short, fill = job_ctg)) +
+  geom_bar(position = "stack") +  
+  labs(
+    title = "Number of Observations by Industry and Job Category",
+    x = "Industry",
+    y = "Count",
+    fill = "Job Category"
+  ) +
+  theme_minimal(base_size = 16) +
+  theme(axis.text.x = element_text(angle = 45, hjust = 1))
+
+```
+Figure 2: To understand how job types are distributed across industries, we created a bar chart with industries on the x-axis, number of respondents on the y-axis, and job category as the collar segments.
+
+This visualization shows that White Collar jobs tend to dominate certain sectors such as "Financial Activities" and "Professional and Business Services". Service jobs show to be prevalent in more customer or care-oriented industries such as "Leisure and Hospitality", while Blue Collar jobs reflect more physically intensive or trade-based jobs in the "Construction" and "Manufacturing" industries as examples.

@@ -1,0 +1,452 @@
+﻿Category,Code,Job_Title
+"Engineers, Architects, and Surveyors",A043,Architects
+"Engineers, Architects, and Surveyors",A044,Aerospace Engineers
+"Engineers, Architects, and Surveyors",A045,Metallurgical and Materials Engineers
+"Engineers, Architects, and Surveyors",A046,Mining Engineers
+"Engineers, Architects, and Surveyors",A047,Petroleum Engineers
+"Engineers, Architects, and Surveyors",A048,Chemical Engineers
+"Engineers, Architects, and Surveyors",A049,Nuclear Engineers
+"Engineers, Architects, and Surveyors",A053,Civil Engineers
+"Engineers, Architects, and Surveyors",A054,Agricultural Engineers
+"Engineers, Architects, and Surveyors",A055,Electrical and Electronic Engineers
+"Engineers, Architects, and Surveyors",A056,Industrial Engineers
+"Engineers, Architects, and Surveyors",A057,Mechanical Engineers
+"Engineers, Architects, and Surveyors",A058,Marine Engineers and Naval Architects
+"Engineers, Architects, and Surveyors",A059,"Engineers, N.E.C."
+"Engineers, Architects, and Surveyors",A063,Surveyors and Mapping Scientists
+Mathematical and Computer Scientists,A064,Computer Systems Analysts and Scientists
+Mathematical and Computer Scientists,A065,Operations and Systems Researchers and Analysts
+Mathematical and Computer Scientists,A066,Actuaries
+Mathematical and Computer Scientists,A067,Statisticians
+Mathematical and Computer Scientists,A068,Mathematical Scientists N.E.C.
+Natural Scientists,A069,Physicists and Astronomers
+Natural Scientists,A073,"Chemists, Except Biochemists"
+Natural Scientists,A074,Atmospheric and Space Scientists
+Natural Scientists,A075,Geologists and Geodesists
+Natural Scientists,A076,Physical Scientists N.E.C.
+Natural Scientists,A077,Agricultural and Food Scientists
+Natural Scientists,A078,Biological and Life Scientists
+Natural Scientists,A079,Forestry and Conservation Scientists
+Natural Scientists,A083,Medical Scientists
+Health Diagnosing Occupations,A084,Physicians
+Health Diagnosing Occupations,A085,Dentists
+Health Diagnosing Occupations,A086,Veterinarians
+Health Diagnosing Occupations,A087,Optometrists
+Health Diagnosing Occupations,A088,Podiatrists
+Health Diagnosing Occupations,A089,"Health Diagnosing Practitioners, N.E.C."
+Health Assessment and Treating Occupations,A095,Registered Nurses
+Health Assessment and Treating Occupations,A096,Pharmacists
+Health Assessment and Treating Occupations,A097,Dietitians
+Health Assessment and Treating Occupations,A098,Respiratory Therapists
+Health Assessment and Treating Occupations,A099,Occupational Therapists
+Health Assessment and Treating Occupations,A103,Physical Therapists
+Health Assessment and Treating Occupations,A104,Speech Therapists
+Health Assessment and Treating Occupations,A105,"Therapists, N.E.C."
+Health Assessment and Treating Occupations,A106,Physicians' Assistants
+Teachers,A113-154,"Teachers, College and University"
+Teachers,A155,Prekindergarten and Kindergarten Teachers
+Teachers,A156,Elementary School Teachers
+Teachers,A157,Secondary School Teachers
+Teachers,A158,"Teachers, Special Education"
+Teachers,A159,"Teachers, N.E.C."
+Teachers,A160,Substitute Teachers
+Teachers,A163,Vocational and Educational Counselors
+"Librarians, Archivists and Curators",A164,Librarians
+"Librarians, Archivists and Curators",A165,Archivists and Curators
+Social Scientists and Urban Planners,A166,Economists
+Social Scientists and Urban Planners,A167,Psychologists
+Social Scientists and Urban Planners,A168,Sociologists
+Social Scientists and Urban Planners,A169,"Social Scientists, N.E.C."
+Social Scientists and Urban Planners,A173,Urban Planners
+"Social, Recreation, and Religious Workers",A174,Social Workers
+"Social, Recreation, and Religious Workers",A175,Recreation Workers
+"Social, Recreation, and Religious Workers",A176,Clergy
+"Social, Recreation, and Religious Workers",A177,"Religious Workers, N.E.C."
+Lawyers and Judges,A178,Lawyers
+Lawyers and Judges,A179,Judges
+"Writers, Authors, Entertainers, and Athletes",A183,Authors
+"Writers, Authors, Entertainers, and Athletes",A184,Technical Writers
+"Writers, Authors, Entertainers, and Athletes",A185,Designers
+"Writers, Authors, Entertainers, and Athletes",A186,Musicians and Composers
+"Writers, Authors, Entertainers, and Athletes",A187,Actors and Directors
+"Writers, Authors, Entertainers, and Athletes",A188,"Painters, Sculptors, Craft-Artists, and Artist Print-Makers"
+"Writers, Authors, Entertainers, and Athletes",A189,Photographers
+"Writers, Authors, Entertainers, and Athletes",A193,Dancers
+"Writers, Authors, Entertainers, and Athletes",A194,"Artists, Performers, and Related Workers, N.E.C."
+"Writers, Authors, Entertainers, and Athletes",A195,Editors and Reporters
+"Writers, Authors, Entertainers, and Athletes",A197,Public Relations Specialists
+"Writers, Authors, Entertainers, and Athletes",A198,Announcers
+"Writers, Authors, Entertainers, and Athletes",A199,Athletes
+"Writers, Authors, Entertainers, and Athletes",A999,"Professional Occupations, N.E.C."
+Health Technologists and Technicians,A203,Clinical Laboratory Technologists and Technicians
+Health Technologists and Technicians,A204,Dental Hygienists
+Health Technologists and Technicians,A205,Health Record Technologists and Technicians
+Health Technologists and Technicians,A206,Radiologic Technicians
+Health Technologists and Technicians,A207,Licensed Practical Nurses
+Health Technologists and Technicians,A208,"Health Technologists and Technicians, N.E.C."
+Engineering Technologists and Technicians,A213,Electrical and Electronic Technicians
+Engineering Technologists and Technicians,A214,Industrial Engineering Technicians
+Engineering Technologists and Technicians,A215,Mechanical Engineering Technicians
+Engineering Technologists and Technicians,A216,"Engineering Technicians, N.E.C."
+Engineering Technologists and Technicians,A217,Drafters
+Engineering Technologists and Technicians,A218,Surveying and Mapping Technicians
+Science Technicians,A223,Biological Technicians
+Science Technicians,A224,Chemical Technicians
+Science Technicians,A225,"Science Technicians, N.E.C."
+Miscellaneous Technicians,A226,Airplane Pilots and Navigators
+Miscellaneous Technicians,A227,Air Traffic Controllers
+Miscellaneous Technicians,A228,Broadcast Equipment Operators
+Miscellaneous Technicians,A229,Computer Programmers
+Miscellaneous Technicians,A233,"Tool Programmers, Numerical Control"
+Miscellaneous Technicians,A234,Legal Assistants
+Miscellaneous Technicians,A235,"Technical and Related Occupations, N.E.C."
+Management Occupations,B003,Legislators
+Management Occupations,B004,"Chief Executives and General Administrators, Public Administration"
+Management Occupations,B005,"Administrators and Officials, Public Administration"
+Management Occupations,B007,Financial Managers
+Management Occupations,B008,Personnel and Labor Relations Managers
+Management Occupations,B009,Purchasing Managers
+Management Occupations,B013,"Managers; Marketing, Advertising and Public Relations"
+Management Occupations,B014,"Administrators, Education and Related Fields"
+Management Occupations,B015,"Managers, Medicine and Health"
+Management Occupations,B016,Postmasters and Mail Superintendents
+Management Occupations,B017,"Managers, Food Serving and Lodging Establishments"
+Management Occupations,B0l8,"Managers, Properties and Real Estate"
+Management Occupations,B019,Funeral Directors
+Management Occupations,B021,"Managers, Service Organizations, N.E.C."
+Management Occupations,B022,"Managers and Administrators, N.E.C."
+Management Related Occupations,B023,Accountants and Auditors
+Management Related Occupations,B024,Underwriters
+Management Related Occupations,B025,Other Financial Officers
+Management Related Occupations,B026,Management Analysts
+Management Related Occupations,B027,"Personnel, Training, and Labor Relations Specialists"
+Management Related Occupations,B028,"Purchasing Agents and Buyers, Farm Products"
+Management Related Occupations,B029,"Buyers, Wholesale and Retail Trade, Except Farm Products"
+Management Related Occupations,B033,"Purchasing Agents and Buyers, N.E.C."
+Management Related Occupations,B034,Business and Promotion Agents
+Management Related Occupations,B035,Construction Inspectors
+Management Related Occupations,B036,"Inspectors and Compliance Officers, Except Construction"
+Management Related Occupations,B037,"Management Related Occupations, N.E.C."
+"Supervisors, Sales Occupations",C243,"Supervisors, Sales Occupations"
+"Finance and Business Services, Sales Reps",C253,Insurance Sales Occupations
+"Finance and Business Services, Sales Reps",C254,Real Estate Sales Occupations
+"Finance and Business Services, Sales Reps",C255,Securities and Financial Services Sales Occupations
+"Finance and Business Services, Sales Reps",C256,Advertising and Related Sales Occupations
+"Finance and Business Services, Sales Reps",C257,"Sales Occupations, Other Business Services"
+"Sales Representatives, Commodities Except Retail",C258,Sales Engineers
+"Sales Representatives, Commodities Except Retail",C259,"Sales Representatives; Mining, Manufacturing, and Wholesale"
+Retail and Personal Services Sales Workers,C263,"Sales Workers, Motor Vehicles and Boats"
+Retail and Personal Services Sales Workers,C264,"Sales Workers, Apparel"
+Retail and Personal Services Sales Workers,C265,"Sales Workers, Shoes"
+Retail and Personal Services Sales Workers,C266,"Sales Workers, Furniture and Home Furnishings"
+Retail and Personal Services Sales Workers,C267,"Sales Workers, Radio, TV, Hi-Fi, and Appliances"
+Retail and Personal Services Sales Workers,C268,"Sales Workers, Hardware and Building Supplies"
+Retail and Personal Services Sales Workers,C269,"Sales Workers, Parts"
+Retail and Personal Services Sales Workers,C274,"Sales Workers, Other Commodities"
+Retail and Personal Services Sales Workers,C275,Sales Counter Clerks
+Retail and Personal Services Sales Workers,C276,Cashiers
+Retail and Personal Services Sales Workers,C277,Street and Door-To-Door Sales Workers
+Retail and Personal Services Sales Workers,C278,News Vendors
+Sales Related Occupations,C283,"Demonstrators, Promoters, and Models, Sales"
+Sales Related Occupations,C284,Auctioneers
+Sales Related Occupations,C285,"Sales Support Occupations, N.E.C."
+"Supervisors, Clerical and Administrative Support",D303,"Supervisors, General Office"
+"Supervisors, Clerical and Administrative Support",D304,"Supervisors, Computer Equipment Operators"
+"Supervisors, Clerical and Administrative Support",D305,"Supervisors, Financial Records Processing"
+"Supervisors, Clerical and Administrative Support",D306,Chief Communications Operators
+"Supervisors, Clerical and Administrative Support",D307,"Supervisors, Distribution, Scheduling, and Adjusting Clerks"
+Computer Equipment Operators,D308,Computer Operators
+Computer Equipment Operators,D309,Peripheral Equipment Operators
+"Secretaries, Stenographers, and Typists",D313,Secretaries
+"Secretaries, Stenographers, and Typists",D314,Stenographers
+"Secretaries, Stenographers, and Typists",D315,Typists
+Information Clerks,D316,Interviewers
+Information Clerks,D317,Hotel Clerks
+Information Clerks,D318,Transportation Ticket and Reservation Agents
+Information Clerks,D319,Receptionists
+Information Clerks,D323,"Information Clerks, N.E.C."
+"Records Processing Clerks, Except Financial",D325,Classified-Ad Clerks
+"Records Processing Clerks, Except Financial",D326,Correspondence Clerks
+"Records Processing Clerks, Except Financial",D327,Order Clerks
+"Records Processing Clerks, Except Financial",D328,"Personnel Clerks, Except Payroll and Timekeeping"
+"Records Processing Clerks, Except Financial",D329,Library Clerks
+"Records Processing Clerks, Except Financial",D335,File Clerks
+"Records Processing Clerks, Except Financial",D336,"Records Clerks, N.E.C."
+Financial Records Processing Clerks,D337,"Bookkeepers, Accounting and Auditing Clerks"
+Financial Records Processing Clerks,D338,Payroll and Timekeeping Clerks
+Financial Records Processing Clerks,D339,Billing Clerks
+Financial Records Processing Clerks,D343,Cost and Rate Clerks
+Financial Records Processing Clerks,D344,"Billing, Posting, and Calculating Machine Operators"
+"Duplicating, Mail, and Other Office Machine Operators",D345,Duplicating Machine Operators
+"Duplicating, Mail, and Other Office Machine Operators",D346,Mail Preparing and Paper Handling Machine Operators
+"Duplicating, Mail, and Other Office Machine Operators",D347,"Office Machine Operators, N.E.C."
+Communications Equipment Operators,D348,Telephone Operators
+Communications Equipment Operators,D353,"Communications Equipment Operators, N.E.C."
+Mail and Message Distributing Occupations,D354,"Postal Clerks, Except Mail Carriers"
+Mail and Message Distributing Occupations,D355,"Mail Carriers, Postal Service"
+Mail and Message Distributing Occupations,D356,"Mail Clerks, Except Postal Service"
+Mail and Message Distributing Occupations,D357,Messengers
+"Material Recording, Scheduling, and Distributing Clerks",D359,Dispatchers
+"Material Recording, Scheduling, and Distributing Clerks",D363,Production Coordinators
+"Material Recording, Scheduling, and Distributing Clerks",D364,"Traffic, Shipping, and Receiving Clerks"
+"Material Recording, Scheduling, and Distributing Clerks",D365,Stock and Inventory Clerks
+"Material Recording, Scheduling, and Distributing Clerks",D366,Meter Readers
+"Material Recording, Scheduling, and Distributing Clerks",D368,"Weighers, Measurers, Checkers, and Samplers"
+"Material Recording, Scheduling, and Distributing Clerks",D373,Expeditors
+"Material Recording, Scheduling, and Distributing Clerks",D374,"Material Recording, Scheduling, and Distributing Clerks, N.E.C."
+Adjusters and Investigators,D375,"Insurance Adjusters, Examiners, and Investigators"
+Adjusters and Investigators,D376,"Investigators and Adjusters, Except Insurance"
+Adjusters and Investigators,D377,"Eligibility Clerks, Social Welfare"
+Adjusters and Investigators,D378,Bill and Account Collectors
+Miscellaneous Administrative Support Occupations,D379,General Office Clerks
+Miscellaneous Administrative Support Occupations,D383,Bank Tellers
+Miscellaneous Administrative Support Occupations,D384,Proofreaders
+Miscellaneous Administrative Support Occupations,D385,Data Entry Keyers
+Miscellaneous Administrative Support Occupations,D386,Statistical Clerks
+Miscellaneous Administrative Support Occupations,D387,Teachers' Aides
+Miscellaneous Administrative Support Occupations,D389,"Administrative Support Occupations, N.E.C."
+Mechanics and Repairers,E503,Supervisors; Mechanics and Repairers
+Mechanics and Repairers,E505,Automobile Mechanics
+Mechanics and Repairers,E506,Automobile Mechanic Apprentices
+Mechanics and Repairers,E507,"Bus, Truck, and Stationary Engine Mechanics"
+Mechanics and Repairers,E508,Aircraft Engine Mechanics
+Mechanics and Repairers,E509,Small Engine Repairers
+Mechanics and Repairers,E514,Automobile Body and Related Repairers
+Mechanics and Repairers,E515,"Aircraft Mechanics, Except Engine"
+Mechanics and Repairers,E516,Heavy Equipment Mechanic
+Mechanics and Repairers,E517,Farm Equipment Mechanics
+Mechanics and Repairers,E518,Industrial Machinery Repairers
+Mechanics and Repairers,E519,Machinery Maintenance Occupations
+Mechanics and Repairers,E523,"Electronic Repairers, Communications and Industrial Equipment"
+Mechanics and Repairers,E525,Data Processing Equipment Repairers
+Mechanics and Repairers,E526,Household Appliance and Power Tool Repairers
+Mechanics and Repairers,E527,Telephone Line Installers and Repairers
+Mechanics and Repairers,E529,Telephone Installers and Repairers
+Mechanics and Repairers,E534,"Heating, Air Conditioning, and Refrigeration Mechanics"
+Mechanics and Repairers,E535,"Camera, Watch, and Musical Instrument Repairers"
+Mechanics and Repairers,E536,Locksmiths and Safe Repairers
+Mechanics and Repairers,E538,Office Machine Repairers
+Mechanics and Repairers,E539,Mechanical Controls and Valve Repairers
+Mechanics and Repairers,E543,Elevator Installers and Repairers
+Mechanics and Repairers,E544,Millwrights
+Mechanics and Repairers,E547,"Mechanics and Repairers, N.E.C."
+"Supervisors, Construction Trades",E553,"Supervisors; Brickmasons, Stonemasons, and Tilesetters"
+"Supervisors, Construction Trades",E554,Supervisors; Carpenters and Related Workers
+"Supervisors, Construction Trades",E555,Supervisors; Electricians and Power Transmission Installers
+"Supervisors, Construction Trades",E556,"Supervisors; Painters, Paperhangers, and Plasterers"
+"Supervisors, Construction Trades",E557,"Supervisors; Plumbers, Pipefitters, and Steamfitters"
+"Supervisors, Construction Trades",E558,"Supervisors; Construction Trades, N.E.C."
+Construction Trades Occupations,E563,Brickmasons and Stonemasons
+Construction Trades Occupations,E564,Brickmason and Stonemason Apprentices
+Construction Trades Occupations,E565,"Tile Setters, Hard and Soft"
+Construction Trades Occupations,E566,Carpet Installers
+Construction Trades Occupations,E567,Carpenters
+Construction Trades Occupations,E569,Carpenter Apprentices
+Construction Trades Occupations,E573,Drywall Installers
+Construction Trades Occupations,E575,Electricians
+Construction Trades Occupations,E576,Electrician Apprentices
+Construction Trades Occupations,E577,Electrical Power Installers and Repairers
+Construction Trades Occupations,E579,"Painters, Construction and Maintenance"
+Construction Trades Occupations,E583,Paperhangers
+Construction Trades Occupations,E584,Plasterers
+Construction Trades Occupations,E585,"Plumbers, Pipefitters, and Steamfitters"
+Construction Trades Occupations,E587,"Plumber, Pipefitter, and Steamfitter Apprentices"
+Construction Trades Occupations,E588,Concrete and Terrazzo Finishers
+Construction Trades Occupations,E589,Glaziers
+Construction Trades Occupations,E593,Insulation Workers
+Construction Trades Occupations,E594,"Paving, Surfacing, and Tamping Equipment Operators"
+Construction Trades Occupations,E595,Roofers
+Construction Trades Occupations,E596,Sheetmetal Duct Installers
+Construction Trades Occupations,E597,Structural Metal Workers
+Construction Trades Occupations,E598,"Drillers, Earth"
+Construction Trades Occupations,E599,"Construction Trades, N.E.C."
+Extractive Occupations,E613,"Supervisors, Extractive Occupations"
+Extractive Occupations,E614,"Drillers, Oil Well"
+Extractive Occupations,E615,Explosives Workers
+Extractive Occupations,E616,Mining Machine Operators
+Extractive Occupations,E617,"Mining Occupations, N.E.C."
+Precision Production Occupations,E628,"Supervisors, Production Occupations"
+Precision Metalworking Occupations,E634,Tool and Die Makers
+Precision Metalworking Occupations,E635,Tool and Die Maker Apprentices
+Precision Metalworking Occupations,E636,"Precision Assemblers, Metal"
+Precision Metalworking Occupations,E637,Machinists
+Precision Metalworking Occupations,E639,Machinist Apprentices
+Precision Metalworking Occupations,E643,Boilermakers
+Precision Metalworking Occupations,E644,"Precision Grinders, Filers, and Tool Sharpeners"
+Precision Metalworking Occupations,E645,"Patternmakers and Modelmakers, Metal"
+Precision Metalworking Occupations,E646,Layout Workers
+Precision Metalworking Occupations,E647,Precious Stones and Metals Workers
+Precision Metalworking Occupations,E649,"Engravers, Metal"
+Precision Metalworking Occupations,E653,Sheet Metal Workers
+Precision Metalworking Occupations,E654,Sheet Metal Worker Apprentices
+Precision Woodworking Occupations,E656,"Patternmakers and Modelmakers, Wood"
+Precision Woodworking Occupations,E657,Cabinet Makers and Bench Carpenters
+Precision Woodworking Occupations,E658,Furniture and Wood Finishers
+"Precision Textile, Apparel, and Furnishings Machine Workers",E666,Dressmakers
+"Precision Textile, Apparel, and Furnishings Machine Workers",E667,Tailors
+"Precision Textile, Apparel, and Furnishings Machine Workers",E668,Upholsterers
+"Precision Textile, Apparel, and Furnishings Machine Workers",E669,Shoe Repairers
+"Precision Workers, Assorted Materials",E675,"Hand Molders and Shapers, Except Jewelers"
+"Precision Workers, Assorted Materials",E676,"Patternmakers, Layout Workers, and Cutters"
+"Precision Workers, Assorted Materials",E677,Optical Goods Workers
+"Precision Workers, Assorted Materials",E678,Dental Laboratory and Medical Appliance Technicians
+"Precision Workers, Assorted Materials",E679,Bookbinders
+"Precision Workers, Assorted Materials",E683,Electrical and Electronic Equipment Assemblers
+"Precision Workers, Assorted Materials",E684,"Miscellaneous Precision Workers, N.E.C."
+Precision Food Production Occupations,E685,"Precision Food Production Occupations, N.E.C."
+Precision Food Production Occupations,E686,Butchers and Meat Cutters
+Precision Food Production Occupations,E687,Bakers
+Precision Food Production Occupations,E688,Food Batchmakers
+"Precision Inspectors, Testers, and Related Workers",E689,"Inspectors, Testers, and Graders"
+"Precision Inspectors, Testers, and Related Workers",E690,"Precision Inspectors, Testers, and Graders, N.E.C."
+"Precision Inspectors, Testers, and Related Workers",E693,Adjusters and Calibrators
+Plant and System Operators,E694,Water and Sewage Treatment Plant Operators
+Plant and System Operators,E695,Power Plant Operators
+Plant and System Operators,E696,Stationary Engineers
+Plant and System Operators,E699,"Miscellaneous Plant and System Operators, N.E.C."
+Metalworking and Plastic Working Machine Operators,F703,Lathe and Turning-Machine Set-Up Operators
+Metalworking and Plastic Working Machine Operators,F704,Lathe and Turning-Machine Operators
+Metalworking and Plastic Working Machine Operators,F705,Milling and Planing Machine Operators
+Metalworking and Plastic Working Machine Operators,F706,Punching and Stamping Press Operators
+Metalworking and Plastic Working Machine Operators,F707,Rolling Machine Operators
+Metalworking and Plastic Working Machine Operators,F708,Drilling and Boring Machine Operators
+Metalworking and Plastic Working Machine Operators,F709,"Grinding, Abrading, Buffing, and Polishing Machine Operators"
+Metalworking and Plastic Working Machine Operators,F713,Forging Machine Operators
+Metalworking and Plastic Working Machine Operators,F714,Numerical Control Machine Operators
+Metalworking and Plastic Working Machine Operators,F717,"Fabricating Machine Operators, N.E.C."
+Metalworking and Plastic Working Machine Operators,F719,Molding and Casting Machine Operators
+Metalworking and Plastic Working Machine Operators,F723,Metal Plating Machine Operators
+Metalworking and Plastic Working Machine Operators,F724,Heat Treating Equipment Operators
+Woodworking Machine Operators,F726,"Wood Lathe, Routing, and Planing Machine Operators"
+Woodworking Machine Operators,F727,Sawing Machine Operators
+Woodworking Machine Operators,F728,Shaping and Joining Machine Operators
+Woodworking Machine Operators,F729,Nailing and Tacking Machine Operators
+Printing Machine Operators,F734,Printing Press Operators
+Printing Machine Operators,F735,Photoengravers and Lithographers
+Printing Machine Operators,F736,Typesetters and Compositors
+"Textile, Apparel, and Furnishings Machine Operators",F738,Winding and Twisting Machine Operators
+"Textile, Apparel, and Furnishings Machine Operators",F739,"Knitting, Looping, Taping, and Weaving Machine Operators"
+"Textile, Apparel, and Furnishings Machine Operators",F743,Textile Cutting Machine Operators
+"Textile, Apparel, and Furnishings Machine Operators",F744,Textile Sewing Machine Operators
+"Textile, Apparel, and Furnishings Machine Operators",F745,Shoe Machine Operators
+"Textile, Apparel, and Furnishings Machine Operators",F747,Pressing Machine Operators
+"Textile, Apparel, and Furnishings Machine Operators",F748,Laundering and Dry Cleaning Machine Operators
+"Machine Operators, Assorted Materials",F753,Cementing and Gluing Machine Operators
+"Machine Operators, Assorted Materials",F754,Packaging and Filling Machine Operators
+"Machine Operators, Assorted Materials",F755,Extruding and Forming Machine Operators
+"Machine Operators, Assorted Materials",F756,Mixing and Blending Machine Operators
+"Machine Operators, Assorted Materials",F757,"Separating, Filtering, and Clarifying Machine Operators"
+"Machine Operators, Assorted Materials",F758,Compressing and Compacting Machine Operators
+"Machine Operators, Assorted Materials",F759,Painting and Paint Spraying Machine Operators
+"Machine Operators, Assorted Materials",F763,"Roasting and Baking Machine Operators, Food"
+"Machine Operators, Assorted Materials",F764,"Washing, Cleaning, and Pickling Machine Operators"
+"Machine Operators, Assorted Materials",F765,Folding Machine Operators
+"Machine Operators, Assorted Materials",F766,"Furnace, Kiln, and Oven Operators, Except Food"
+"Machine Operators, Assorted Materials",F768,Crushing and Grinding Machine Operators
+"Machine Operators, Assorted Materials",F769,Slicing and Cutting Machine Operators
+"Machine Operators, Assorted Materials",F773,Motion Picture Projectionists
+"Machine Operators, Assorted Materials",F774,Photographic Process Machine Operators
+"Machine Operators, Assorted Materials",F777,"Miscellaneous Machine Operators, N.E.C."
+"Fabricators, Assemblers, and Hand Working Occupations",F783,Welders and Cutters
+"Fabricators, Assemblers, and Hand Working Occupations",F784,Solderers and Braziers
+"Fabricators, Assemblers, and Hand Working Occupations",F785,Assemblers
+"Fabricators, Assemblers, and Hand Working Occupations",F786,Hand Cutting and Trimming Occupations
+"Fabricators, Assemblers, and Hand Working Occupations",F787,"Hand Molding, Casting, and Forming Occupations"
+"Fabricators, Assemblers, and Hand Working Occupations",F789,"Hand Painting, Coating, and Decorating Occupations"
+"Fabricators, Assemblers, and Hand Working Occupations",F793,Hand Engraving and Printing Occupations
+"Fabricators, Assemblers, and Hand Working Occupations",F795,"Miscellaneous Hand Working Occupations, N.E.C."
+"Production Inspectors, Testers, Samplers, and Weighers",F796,"Production Inspectors, Checkers, and Examiners"
+"Production Inspectors, Testers, Samplers, and Weighers",F797,Production Testers
+"Production Inspectors, Testers, Samplers, and Weighers",F798,Production Samplers and Weighers
+"Production Inspectors, Testers, Samplers, and Weighers",F799,"Graders and Sorters, Except Agricultural"
+"Production Inspectors, Testers, Samplers, and Weighers",F800,"Hand Inspectors, N.E.C."
+Motor Vehicle Operators,G803,"Supervisors, Motor Vehicle Operators"
+Motor Vehicle Operators,G804,Truck Drivers
+Motor Vehicle Operators,G806,Driver-Sales Workers
+Motor Vehicle Operators,G808,Bus Drivers
+Motor Vehicle Operators,G809,Taxicab Drivers and Chauffeurs
+Motor Vehicle Operators,G813,Parking Lot Attendants
+Motor Vehicle Operators,G814,"Motor Transportation Occupations, N.E.C."
+Railroad Transportation Occupations,G823,Railroad Conductors and Yardmasters
+Railroad Transportation Occupations,G824,Locomotive Operating Occupations
+Railroad Transportation Occupations,G825,"Railroad Brake, Signal, and Switch Operators"
+Railroad Transportation Occupations,G826,"Rail Vehicle Operators, N.E.C."
+Water Transportation Occupations,G828,"Ship Captains and Mates, Except Fishing Boats"
+Water Transportation Occupations,G829,Sailors and Deckhands
+Water Transportation Occupations,G833,Marine Engineers
+Water Transportation Occupations,G834,"Bridge, Lock, and Lighthouse Tenders"
+Material Moving Equipment Operators,G843,"Supervisors, Material Moving Equipment Operators"
+Material Moving Equipment Operators,G844,Operating Engineers
+Material Moving Equipment Operators,G845,Longshore Equipment Operators
+Material Moving Equipment Operators,G848,Hoist and Winch Operators
+Material Moving Equipment Operators,G849,Crane and Tower Operators
+Material Moving Equipment Operators,G853,Excavating and Loading Machine Operators
+Material Moving Equipment Operators,G855,"Grader, Dozer, and Scraper Operators"
+Material Moving Equipment Operators,G856,Industrial Truck and Tractor Equipment Operators
+Material Moving Equipment Operators,G859,"Miscellaneous Material Moving Equipment Operators, N.E.C."
+"Farm, Fishing, and Forestry Occupations – Nonfarm Sector",H483,Marine Life Cultivation Workers
+"Farm, Fishing, and Forestry Occupations – Nonfarm Sector",H484,Nursery Workers
+"Farm, Fishing, and Forestry Occupations – Nonfarm Sector",H485,"Supervisors, Agriculture-Related Workers"
+"Farm, Fishing, and Forestry Occupations – Nonfarm Sector",H486,"Groundskeepers and Gardeners, Except Farm"
+"Farm, Fishing, and Forestry Occupations – Nonfarm Sector",H487,"Animal Caretakers, Except Farm"
+"Farm, Fishing, and Forestry Occupations – Nonfarm Sector",H489,"Inspectors, Agricultural Products"
+"Farm, Fishing, and Forestry Occupations – Nonfarm Sector",H494,"Supervisors, Forestry and Logging Workers"
+"Farm, Fishing, and Forestry Occupations – Nonfarm Sector",H495,"Forestry Workers, Except Logging"
+"Farm, Fishing, and Forestry Occupations – Nonfarm Sector",H496,Timber Cutting and Logging Occupations
+"Farm, Fishing, and Forestry Occupations – Nonfarm Sector",H497,"Captains and Other Officers, Fishing Vessels"
+"Farm, Fishing, and Forestry Occupations – Nonfarm Sector",H498,"Fishers, Hunters, and Trappers"
+"Helpers, Handlers, and Laborers",H864,"Supervisors; Handlers, Equipment Cleaners, and Laborers, N.E.C."
+"Helpers, Handlers, and Laborers",H865,"Helpers, Mechanics and Repairers"
+"Helpers, Handlers, and Laborers",H866,"Helpers, Construction Trades"
+"Helpers, Handlers, and Laborers",H867,"Helpers, Surveyor"
+"Helpers, Handlers, and Laborers",H868,"Helpers, Extractive Occupations"
+"Helpers, Handlers, and Laborers",H869,Construction Laborers
+"Helpers, Handlers, and Laborers",H874,Production Helpers
+"Helpers, Handlers, and Laborers",H875,Garbage Collectors
+"Helpers, Handlers, and Laborers",H876,Stevedores
+"Helpers, Handlers, and Laborers",H877,Stock Handlers and Baggers
+"Helpers, Handlers, and Laborers",H878,Machine Feeders and Offbearers
+"Helpers, Handlers, and Laborers",H883,"Freight, Stock, and Material Handlers, N.E.C."
+"Helpers, Handlers, and Laborers",H885,Garage and Service Station Related Occupations
+"Helpers, Handlers, and Laborers",H887,Vehicle Washers and Equipment Cleaners
+"Helpers, Handlers, and Laborers",H888,Hand Packers and Packagers
+"Helpers, Handlers, and Laborers",H889,"Laborers, Except Construction, N.E.C."
+Protective Service Occupations,K413,"Supervisors, Firefighting and Fire Prevention Occupations"
+Protective Service Occupations,K414,"Supervisors, Police and Detectives"
+Protective Service Occupations,K415,"Supervisors, Guards"
+Protective Service Occupations,K416,Fire Inspection and Fire Prevention Occupations
+Protective Service Occupations,K417,Firefighting Occupations
+Protective Service Occupations,K418,"Police and Detectives, Public Service"
+Protective Service Occupations,K423,"Sheriffs, Bailiffs, and Other Law Enforcement Officers"
+Protective Service Occupations,K424,Correctional Institution Officers
+Protective Service Occupations,K425,Crossing Guards
+Protective Service Occupations,K426,"Guards and Police, Except Public Service"
+Protective Service Occupations,K427,"Protective Service Occupations, N.E.C."
+Food Service Occupations,K433,Supervisors; Food Preparation and Service Occupations
+Food Service Occupations,K434,Bartenders
+Food Service Occupations,K435,Waiters and Waitresses
+Food Service Occupations,K436,Cooks
+Food Service Occupations,K438,"Food Counter, Fountain, and Related Occupations"
+Food Service Occupations,K439,"Kitchen Workers, Food Preparation"
+Food Service Occupations,K443,Waiters'/Waitresses' Assistants
+Food Service Occupations,K444,"Food Preparation Occupations, N.E.C."
+Health Service Occupations,K445,Dental Assistants
+Health Service Occupations,K446,"Health Aides, Except Nursing"
+Health Service Occupations,K447,"Nursing Aides, Orderlies and Attendants"
+Cleaning and Building Service Occupations,K448,"Supervisors, Cleaning and Building Service Workers"
+Cleaning and Building Service Occupations,K449,Maids and Housemen
+Cleaning and Building Service Occupations,K453,Janitors and Cleaners
+Cleaning and Building Service Occupations,K454,Elevator Operators
+Cleaning and Building Service Occupations,K455,Pest Control Occupations
+Personal Service Occupations,K456,"Supervisors, Personal Service Occupations"
+Personal Service Occupations,K457,Barbers
+Personal Service Occupations,K458,Hairdressers and Cosmetologists
+Personal Service Occupations,K459,"Attendants, Amusement and Recreation Facilities"
+Personal Service Occupations,K461,Guides
+Personal Service Occupations,K462,Ushers
+Personal Service Occupations,K463,Public Transportation Attendants
+Personal Service Occupations,K464,Baggage Porters and Bellhops
+Personal Service Occupations,K465,Welfare Service Aides
+Personal Service Occupations,K467,Early Childhood Teacher's Assistants
+Personal Service Occupations,K468,"Child Care Workers, N.E.C."
+Personal Service Occupations,K469,"Service Occupations, N.E.C."
